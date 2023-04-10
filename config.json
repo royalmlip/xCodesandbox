@@ -37,6 +37,22 @@
 					"path": "VLESS_WSPATH"
 				}
 			}
+		},
+		{
+			"port": 30000,
+			"listen": "127.0.0.1",
+			"protocol": "trojan",
+			"settings": {
+				"clients": [
+					"password": "UUID"
+				}]
+			},
+			"streamSettings": {
+				"network": "ws",
+				"wsSettings": {
+					"path": "TROJAN_WSPATH"
+				}
+			}
 		}
 	],
 	"outbounds": [{
